@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/texturafondo.png");
+  background-size: 100%;
+}
+
+/* ===== MIGAS DE PAN ===== */
+
+.migas-pan {
+    background-color: #977DFF;
+    padding: 16px 6%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #77716d;
+    border-bottom: 1px solid #e5dfda;
+}
+
+.migas-pan a {
+    color: #65534d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.migas-pan a:hover {
+    color: #F2E6EE;
+}
+
+.migas-pan span[aria-current="page"] {
+    font-weight: 600;
+    color: #332a27;
+}
+
+
+
+h1{
+    color: #00033D;
+    font-size: 40px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+/* Imagen Van */
+#imagen-van {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#imagen-van img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+#encabezado {
+    background-color: #F2E6EE;
+    display: flex;
+    justify-content: center;
+}
+
+/* ===== DESCRIPCIÓN ===== */
+
+.descripcion-proyecto {
+    max-width: 1400px;
+    margin: 0 auto 32px;
+    padding: 0 20px;
+    color: #332a27;
+    line-height: 1.8;
+}
+
+.descripcion-proyecto p {
+    margin: 0 0 20px;
+}
+
+.descripcion-proyecto h2 {
+    margin: 28px 0 10px;
+    font-size: 30px;
+    color: #0033FF;
+}
+
+
+/* ===== BOTÓN REGRESAR ===== */
+
+.boton-regresar {
+    display: flex;
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 35px auto 0;
+    padding: 13px 24px;
+    border-radius: 30px;
+    background-color: #332a27;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.boton-regresar:hover {
+    background-color: #977DFF;
+    transform: translateY(-2px);
+}
+
+.boton-regresar:focus-visible {
+    outline: 3px solid #b58b79;
+    outline-offset: 4px;
+}
+
+
+
+--------------------------------------------------------------------------
+#logotipo {
+    /*background-color: lemonchiffon;*/
+    height: 70px;
+    width: 200px;
+}
+
+
+#menu {
+    /*background-color: rgb(255, 232, 205);*/
+    height: 50px;
+    margin-top: 20px;
+    width: 750px;
+}
+
+#Menú ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 10%;
+}
+
+/*---------Pseudoclases----------------*/
+#menu a:link { /*link Estado del enlace*/
+    color: #00033D;
+    text-decoration: none;
+}
+
+#menu a:hover { /*hover Estado del enlace cuando posicionamos cursor encima*/
+    color: #00033D;
+    text-decoration: underline;
+}
+
+#menu a:visited { /*visited Estado del enlace una vez que le damos click*/
+    color: #00033D;
+}
+
+/*----------- Portada ------------*/
+#imgportada {
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+}
+
+
+
+
+/*-------------- Sección contacto ---------------*/
+#contacto {
+    background-color: #00033D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#contacto h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0 35px;
+}
+
+#redes-sociales a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#redes-sociales a:hover {
+    color: #977DFF;
+}
+
+#contacto .copyright {
+    font-size: 14px;
+    margin-top: 30px;
+}
