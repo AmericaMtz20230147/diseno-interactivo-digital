@@ -6,21 +6,61 @@ body {
   background-size: 100%;
 }
 
+/* ===== MIGAS DE PAN ===== */
+
+.migas-pan {
+    background-color: #977DFF;
+    padding: 16px 6%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #77716d;
+    border-bottom: 1px solid #e5dfda;
+}
+
+.migas-pan a {
+    color: #65534d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.migas-pan a:hover {
+    color: #F2E6EE;
+}
+
+.migas-pan span[aria-current="page"] {
+    font-weight: 600;
+    color: #332a27;
+}
+
+
+
 h1{
-    color: #977DFF;
-    font-size: 28px;
-}
-
-h2{
-    font-size: 28px;
-    color: #0033FF;
-}
-
-h3{
-    font-size: 18px;
     color: #00033D;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-left: 35px;
+    text-align: center;
 }
+
+/* Imagen Van */
+#imagen-van {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#imagen-van img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
 
 #encabezado {
     background-color: #F2E6EE;
@@ -28,7 +68,63 @@ h3{
     justify-content: center;
 }
 
+/* ===== DESCRIPCIÓN ===== */
 
+.descripcion-proyecto {
+    max-width: 1400px;
+    margin: 0 auto 32px;
+    padding: 0 20px;
+    color: #332a27;
+    line-height: 1.8;
+}
+
+.descripcion-proyecto p {
+    margin: 0 0 20px;
+}
+
+.descripcion-proyecto h2 {
+    margin: 28px 0 10px;
+    font-size: 30px;
+    color: #0033FF;
+}
+
+
+/* ===== BOTÓN REGRESAR ===== */
+
+.boton-regresar {
+    display: flex;
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 35px auto 0;
+    padding: 13px 24px;
+    border-radius: 30px;
+    background-color: #332a27;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.boton-regresar:hover {
+    background-color: #977DFF;
+    transform: translateY(-2px);
+}
+
+.boton-regresar:focus-visible {
+    outline: 3px solid #b58b79;
+    outline-offset: 4px;
+}
+
+
+
+--------------------------------------------------------------------------
 #logotipo {
     /*background-color: lemonchiffon;*/
     height: 70px;
@@ -81,92 +177,6 @@ h3{
 }
 
 
-/*----------- Sección Acerca de Mi ------------*/
-#acercademi {
-    justify-content: center;
-    flex-wrap: wrap;
-    display: flex;
-}
-
-#textoacercademi {
-    text-align: center;
-    width: 100%;
-}
-
-#perfil {
-    display: flex;
-    width: 960px;
-}
-
-
-#imgperfil {
-    width: 280px;
-    height: 300px;
-}
-
-#presentacion {
-    text-align: center;
-    width: 600px;
-
-}
-
-#Habilidadesyconocimientos {
-    display: flex;
-    width: 600px;
-}
-
-#Habilidadesyconocimientos ul {
-    list-style: none;
-}
-
-.habilidades {
-    width: 200px;
-}
-
-#descarga {
-    text-align: center;
-    width: 100%;
-}
-
-
-/*----------- Portafolio ------------*/
-#portafolio {
-    background-color: #F2E6EE;
-    text-align: center;
-    padding: 20px 15px;
-}
-
-#trabajos {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-    font-size: 10px;
-}
-
-.boton {
-    margin: 0 auto;
-    height: 50px;
-    width: 150px;
-    background-color: #657591;
-}
-
-.boton p {
-    padding-top: 15px;
-}
-
-.boton a:hover {
-    background-color: #e3b341;
-}
-
-.boton a:link {
-    color: white;
-    text-decoration: none;
-}
-
-.boton:visited {
-    color: white;
-    text-decoration: none;
-}
 
 
 /*-------------- Sección contacto ---------------*/
